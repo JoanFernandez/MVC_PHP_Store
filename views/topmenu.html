@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+    @name: topMenu.html
+    @author: Joan Fernández
+    @version: 1.0
+    @description: Shows the menu nav of the app
+    @date: 09/02/17
+-->
+<!--<nav>
+    <ul class="ulnav">        
+        <li><a href="index.php?action=listAll">List all articles</a></li>
+        <li><a href="index.php?action=listCategory">List by category</a></li>
+        <li><a href="index.php?action=addArticle">Article addition</a></li>
+        <li><a href="index.php?action=articleForm">Article management</a></li>
+    </ul>
+</nav>-->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.php">BioProven Store</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">List articles
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="index.php?action=listAll">List all</a></li>
+          <li><a href="index.php?action=categoryForm">List by category</a></li>          
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Article management
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="index.php?action=articleForm">Manage articles</a></li>         
+        </ul>
+      </li>      
+    </ul>
+  </div>
+</nav>
